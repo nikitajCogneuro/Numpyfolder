@@ -1,3 +1,18 @@
+# ---------------------------------------------------------
+# Pearson correlation
+# ---------------------------------------------------------
+# Pearson's correlation measures the strength and direction
+# of a LINEAR relationship between two numerical variables.
+#
+# Here we examine whether sleep hours are associated with
+# exam scores.
+#
+# The function returns:
+#   - statistic: Pearson's r
+#   - pvalue: test of the null hypothesis that the
+#             population correlation is zero.
+# --------------------------------------------------------
+
 import pandas as pd
 from scipy import stats
 
