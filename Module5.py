@@ -1,3 +1,18 @@
+# ---------------------------------------------------------
+# Point-biserial correlation
+# ---------------------------------------------------------
+# Point-biserial correlation is appropriate when one
+# variable is continuous and the other variable has
+# exactly two categories.
+#
+# Here:
+#   0 = failed
+#   1 = passed
+#
+# The 0/1 values are category labels, not quantities.
+# We are examining whether exam scores are associated
+# with membership in the two groups.
+# ---------------------------------------------------------
 
 from scipy import stats
 
