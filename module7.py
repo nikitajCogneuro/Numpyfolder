@@ -1,4 +1,13 @@
 
+This script models the probability of passing an exam
+using sleep hours as a predictor.
+
+Outcome:
+    passed = 1 if the student passes
+    passed = 0 if the student fails
+
+Logistic regression is used because the outcome is binary.
+
 
 import pandas as pd
 import statsmodels.api as sm
